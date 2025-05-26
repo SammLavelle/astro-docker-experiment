@@ -1,0 +1,38 @@
+<div class="logo">
+    <a class="logo__link" href="/">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 538.983 239.24"
+            preserveAspectRatio="none"
+            class="logo__background"
+        >
+            <path
+                d="M491.633-140.824C542.346-66.594,411.274-22.4,304.3-28.076,255.953-30.644,127.6-65.833,93.932,29.594S-99.425-59.379,0-101.984,440.921-215.054,491.633-140.824Z"
+                transform="translate(35.189 182.043) rotate(-1)"
+                fill="rgba(148,28,63,0.04)"></path>
+        </svg>
+        <span class="logo__text">Samantha Lavelle</span>
+    </a>
+</div>
+
+<style>
+    .logo {
+        position: relative;
+    }
+    .logo__link {
+        text-decoration: none;
+    }
+    .logo__background {
+        position: absolute;
+        top: calc(var(--space-20) * -4);
+        left: calc(var(--space-gutter) * -2.5);
+        width: calc(150% + var(--space-gutter) * 2.5);
+        height: calc(400% + var(--space-60));
+    }
+    .logo__text {
+        text-transform: uppercase;
+        font-size: var(--step-4);
+        color: var(--color-primary);
+        letter-spacing: 0.1em;
+    }
+</style>

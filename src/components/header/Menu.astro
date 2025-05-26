@@ -1,0 +1,18 @@
+---
+import MenuItem from "./MenuItem.astro";
+---
+
+<nav class="menu">
+    <ul class="menu__list">
+        <!-- <MenuItem link="/skills" title="Skills" /> -->
+    </ul>
+</nav>
+
+<style>
+    .menu__list {
+        list-style-type: none;
+        display: flex;
+        gap: var(--space-40);
+        justify-content: flex-end;
+    }
+</style>

@@ -1,0 +1,14 @@
+---
+const { link, title } = Astro.props;
+---
+
+<li class="menu__item">
+    <a class="menu__link" href={link}>{title}</a>
+</li>
+
+<style>
+    .menu__link {
+        color: var(--color-text);
+        font-size: var(--step-1);
+    }
+</style>

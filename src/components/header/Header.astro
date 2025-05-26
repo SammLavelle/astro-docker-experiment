@@ -1,0 +1,23 @@
+---
+import Logo from "./Logo.astro";
+import Menu from "./Menu.astro";
+---
+
+<header>
+    <Logo />
+
+    <Menu />
+
+    <style>
+        header {
+            width: var(--width-max-inset);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: var(--space-20);
+            margin: 0 auto;
+            padding: var(--space-20) 0;
+            position: relative;
+        }
+    </style>
+</header>
